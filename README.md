@@ -1,4 +1,4 @@
-# 👨‍💻 Skyler Hua (华云鹏) | System-Level Quality Architect
+# 👨‍💻 Skyler Hua  | System-Level Quality Architect
 ### Pioneering AI-Driven Quality Management for Humanoid Robotics 🤖
 
 [![Website](https://img.shields.io/badge/Visit-My_Personal_Website-blue?style=for-the-badge&logo=google-chrome)](https://yunpenghua168-wq.github.io/my-website/)
