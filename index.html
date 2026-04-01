@@ -189,28 +189,11 @@
           </div>
         </div>
 
-        <form class="contact-form" onsubmit="handleSubmit(event)">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name" data-i18n="form_name">姓名</label>
-              <input type="text" id="name" data-i18n-placeholder="form_name_ph" placeholder="你的名字" required />
-            </div>
-            <div class="form-group">
-              <label for="email" data-i18n="form_email">邮箱</label>
-              <input type="email" id="email" placeholder="your@email.com" required />
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="subject" data-i18n="form_subject">主题</label>
-            <input type="text" id="subject" data-i18n-placeholder="form_subject_ph" placeholder="质量咨询 / AI 工具 / 职业交流 / ..." />
-          </div>
-          <div class="form-group">
-            <label for="message" data-i18n="form_message">留言</label>
-            <textarea id="message" rows="5" data-i18n-placeholder="form_message_ph" placeholder="请描述你的需求或想法..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-full" data-i18n="form_submit">发送消息</button>
-          <div class="form-success" id="formSuccess" data-i18n="form_success">消息已发送，我会尽快与你联系！</div>
-        </form>
+        <!-- 已替换为腾讯问卷表单 -->
+        <div class="contact-form" style="width:100%;">
+          <iframe id='idy_frame' height="100%" width="100%" src="https://wj.qq.com/s2/26188406/b62a/" frameborder="0" style='min-height:650px; border:none;' allowfullscreen sandbox="allow-same-origin allow-scripts allow-modals allow-downloads allow-forms allow-popups"></iframe>
+        </div>
+
       </div>
     </div>
   </section>
