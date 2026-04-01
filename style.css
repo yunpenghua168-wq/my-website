@@ -82,6 +82,28 @@ img { max-width: 100%; display: block; }
 
 .nav-links a:hover { color: var(--text-primary); }
 
+/* ===== Lang Toggle ===== */
+.lang-toggle {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 980px;
+  padding: 5px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--text-secondary);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.lang-toggle:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 /* ===== Buttons ===== */
 .btn {
   display: inline-flex;
@@ -526,6 +548,7 @@ a.contact-value:hover { color: var(--accent); }
 
 @media (max-width: 600px) {
   .nav-links { display: none; }
+  .lang-toggle { padding: 4px 10px; }
   .services-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .about-stats { grid-template-columns: 1fr 1fr; }
